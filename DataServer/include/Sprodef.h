@@ -313,7 +313,7 @@ typedef struct
 	BYTE dbInventory[48];
 	BYTE DbVersion;
 	BYTE btGuildStatus;
-	char PK_Level;
+	BYTE PK_Level;
 	//BYTE Index;
 	//char Name[MAX_IDSTRING];
 	//char UnityBFOfRealName[MAX_IDSTRING];
@@ -4594,7 +4594,7 @@ typedef struct _QUESTEXP_INFO
 #pragma pack()
 
 /* 798 */
-struct __unaligned PMSG_ANS_QUESTEXP_INFO
+struct PMSG_ANS_QUESTEXP_INFO
 {
 	PWMSG_HEAD head;
 char btQuestCnt;

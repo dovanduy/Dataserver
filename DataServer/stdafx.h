@@ -19,7 +19,9 @@
 
 #include <afxwin.h>         // MFC core and standard components
 #include <afxext.h>         // MFC extensions
-
+#include <atlsimpstr.h>
+#include <afxstr.h>
+//#include <atlstr.h>
 
 #ifndef _AFX_NO_DB_SUPPORT
 #include <afxdb.h>			// MFC ODBC database classes
@@ -36,6 +38,7 @@
 #endif // _AFX_NO_AFXCMN_SUPPORT
 
 #include <afxcontrolbars.h>     // MFC support for ribbons and control bars
+
 
 #define DATASERVER_VERSION				"0.75.00"//"0.73.00"
 

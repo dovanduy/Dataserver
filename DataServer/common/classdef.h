@@ -52,7 +52,7 @@ public:
 	int  GetDefPoint(int char_class);
 	void SetMabubBanjiOption(BOOL flag);
 	void SetJumpingEquipment(int nClass);//new
-	char GetCharacterClassByDBClass(char DbClass);
+	BYTE GetCharacterClassByDBClass(char DbClass);
 };
 
 #endif // !defined(AFX_CLASSDEF_H__1B6C4ED5_0169_4A49_990F_E7FBB0E9DECF__INCLUDED_)

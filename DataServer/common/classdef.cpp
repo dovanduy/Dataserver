@@ -266,7 +266,7 @@ void classdef::SetEquipment(int Class)
 //	}
 //}
 
-char classdef::GetCharacterClassByDBClass(char DbClass)
+BYTE classdef::GetCharacterClassByDBClass(char DbClass)
 {
 	if (DbClass <= 3)
 		return 0;

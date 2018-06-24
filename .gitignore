@@ -1,0 +1,52 @@
+# Compiled Object files
+*.slo
+*.lo
+*.o
+*.obj
+*.suo
+*.v12.suo
+.suo
+
+# Precompiled Headers
+*.gch
+*.pch
+
+# Compiled Dynamic libraries
+*.so
+*.dylib
+*.dll
+
+# Fortran module files
+*.mod
+*.smod
+
+# Compiled Static libraries
+*.lai
+*.la
+*.a
+*.lib
+
+# Executables
+*.exe
+*.out
+*.app
+
+# Database
+*.sdf
+*.opensdf
+*.manifest
+*.pdb
+*.lastbuildstate
+*.opendb
+*.db
+
+# fcktlog
+*.tlog
+*.log
+
+
+#folders
+ipch/
+Release/
+ReleaseDS/
+/.vs
